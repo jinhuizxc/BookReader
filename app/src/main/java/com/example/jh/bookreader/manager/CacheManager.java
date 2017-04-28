@@ -4,10 +4,10 @@ import android.content.Context;
 import android.text.TextUtils;
 
 import com.example.jh.bookreader.app.ReaderApplication;
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.BookLists;
 import com.example.jh.bookreader.bean.BookMixAToc;
 import com.example.jh.bookreader.bean.ChapterRead;
-import com.example.jh.bookreader.bean.base.Constant;
 import com.example.jh.bookreader.utils.ACache;
 import com.example.jh.bookreader.utils.AppUtils;
 import com.example.jh.bookreader.utils.FileUtils;

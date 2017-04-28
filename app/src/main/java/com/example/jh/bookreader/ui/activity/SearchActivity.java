@@ -20,8 +20,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.jh.bookreader.R;
+import com.example.jh.bookreader.base.BaseRVActivity;
 import com.example.jh.bookreader.bean.SearchDetail;
-import com.example.jh.bookreader.bean.base.BaseRVActivity;
 import com.example.jh.bookreader.component.AppComponent;
 import com.example.jh.bookreader.component.DaggerBookComponent;
 import com.example.jh.bookreader.manager.CacheManager;
@@ -330,7 +330,7 @@ public class SearchActivity extends BaseRVActivity<SearchDetail.SearchBooks> imp
     public void onItemClick(int position) {
         SearchDetail.SearchBooks data = mAdapter.getItem(position);
         // BookDetailActivity
-//        BookDetailActivity.startActivity(this, data._id);
+        BookDetailActivity.startActivity(this, data._id);
     }
 
     @OnClick(R.id.tvClear)

@@ -1,7 +1,23 @@
-package com.example.jh.bookreader.bean.base;
+/**
+ * Copyright 2016 JustWayward Team
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.example.jh.bookreader.base;
 
 import android.graphics.Color;
 import android.support.annotation.StringDef;
+
 
 import com.example.jh.bookreader.utils.AppUtils;
 import com.example.jh.bookreader.utils.FileUtils;
@@ -15,11 +31,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jinhui  on 2017/4/24
- * 邮箱: 1004260403@qq.com
+ * @author yuyh.
+ * @date 16/8/5.
  */
-
 public class Constant {
+
     public static final String IMG_BASE_URL = "http://statics.zhuishushenqi.com";
 
     public static final String API_BASE_URL = "http://api.zhuishushenqi.com";
@@ -195,5 +211,4 @@ public class Constant {
         put(BookType.HXYQ, "幻想言情");
         put(BookType.DMTR, "耽美同人");
     }};
-
 }

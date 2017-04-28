@@ -17,25 +17,32 @@ package com.example.jh.bookreader.component;
 
 
 
+import com.example.jh.bookreader.ui.activity.BookDetailActivity;
+import com.example.jh.bookreader.ui.activity.BookSourceActivity;
+import com.example.jh.bookreader.ui.activity.BooksByTagActivity;
+import com.example.jh.bookreader.ui.activity.ReadActivity;
 import com.example.jh.bookreader.ui.activity.SearchActivity;
+import com.example.jh.bookreader.ui.activity.SearchByAuthorActivity;
+import com.example.jh.bookreader.ui.fragment.BookDetailDiscussionFragment;
+import com.example.jh.bookreader.ui.fragment.BookDetailReviewFragment;
 
 import dagger.Component;
 
 @Component(dependencies = AppComponent.class)
 public interface BookComponent {
-//    BookDetailActivity inject(BookDetailActivity activity);
+    BookDetailActivity inject(BookDetailActivity activity);
 //
-//    ReadActivity inject(ReadActivity activity);
+    ReadActivity inject(ReadActivity activity);
 //
-//    BookSourceActivity inject(BookSourceActivity activity);
+    BookSourceActivity inject(BookSourceActivity activity);
 //
-//    BooksByTagActivity inject(BooksByTagActivity activity);
+    BooksByTagActivity inject(BooksByTagActivity activity);
 
     SearchActivity inject(SearchActivity activity);
 
-//    SearchByAuthorActivity inject(SearchByAuthorActivity activity);
+    SearchByAuthorActivity inject(SearchByAuthorActivity activity);
 //
-//    BookDetailReviewFragment inject(BookDetailReviewFragment fragment);
+    BookDetailReviewFragment inject(BookDetailReviewFragment fragment);
 //
-//    BookDetailDiscussionFragment inject(BookDetailDiscussionFragment fragment);
+    BookDetailDiscussionFragment inject(BookDetailDiscussionFragment fragment);
 }

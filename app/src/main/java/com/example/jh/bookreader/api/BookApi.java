@@ -1,5 +1,6 @@
 package com.example.jh.bookreader.api;
 
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.AutoComplete;
 import com.example.jh.bookreader.bean.BookDetail;
 import com.example.jh.bookreader.bean.BookHelp;
@@ -27,7 +28,6 @@ import com.example.jh.bookreader.bean.Rankings;
 import com.example.jh.bookreader.bean.Recommend;
 import com.example.jh.bookreader.bean.RecommendBookList;
 import com.example.jh.bookreader.bean.SearchDetail;
-import com.example.jh.bookreader.bean.base.Constant;
 import com.example.jh.bookreader.bean.user.LoginReq;
 
 import java.util.List;

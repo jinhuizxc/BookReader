@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.PopupWindow;
 
 import com.example.jh.bookreader.R;
-import com.example.jh.bookreader.bean.base.Constant;
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.support.UserSexChooseFinishedEvent;
 import com.example.jh.bookreader.manager.SettingManager;
 

@@ -2,8 +2,8 @@ package com.example.jh.bookreader.manager;
 
 import android.text.TextUtils;
 
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.Recommend;
-import com.example.jh.bookreader.bean.base.Constant;
 import com.example.jh.bookreader.utils.ACache;
 import com.example.jh.bookreader.utils.AppUtils;
 import com.example.jh.bookreader.utils.FileUtils;

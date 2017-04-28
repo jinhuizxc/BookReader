@@ -1,6 +1,9 @@
 package com.example.jh.bookreader.component;
 
 import com.example.jh.bookreader.ui.activity.MainActivity;
+import com.example.jh.bookreader.ui.activity.SettingActivity;
+import com.example.jh.bookreader.ui.activity.WifiBookActivity;
+import com.example.jh.bookreader.ui.fragment.RecommendFragment;
 
 import dagger.Component;
 
@@ -14,8 +17,8 @@ public interface MainComponent {
 
     MainActivity inject(MainActivity activity);
 
-//    RecommendFragment inject(RecommendFragment fragment);
+    RecommendFragment inject(RecommendFragment fragment);
 //
-//    SettingActivity inject(SettingActivity activity);
-//    WifiBookActivity inject(WifiBookActivity activity);
+    SettingActivity inject(SettingActivity activity);
+    WifiBookActivity inject(WifiBookActivity activity);
 }

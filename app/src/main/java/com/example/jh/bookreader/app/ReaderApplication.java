@@ -4,8 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import android.support.v7.app.AppCompatDelegate;
 
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.base.CrashHandler;
-import com.example.jh.bookreader.bean.base.Constant;
 import com.example.jh.bookreader.component.AppComponent;
 import com.example.jh.bookreader.component.DaggerAppComponent;
 import com.example.jh.bookreader.module.AppModule;

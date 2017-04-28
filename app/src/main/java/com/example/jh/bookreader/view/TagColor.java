@@ -18,7 +18,7 @@ package com.example.jh.bookreader.view;
 import android.graphics.Color;
 
 
-import com.example.jh.bookreader.bean.base.Constant;
+import com.example.jh.bookreader.base.Constant;
 
 import java.util.ArrayList;
 import java.util.List;

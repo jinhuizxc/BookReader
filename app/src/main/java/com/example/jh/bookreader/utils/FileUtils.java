@@ -3,7 +3,7 @@ package com.example.jh.bookreader.utils;
 import android.content.Context;
 import android.os.Environment;
 
-import com.example.jh.bookreader.bean.base.Constant;
+import com.example.jh.bookreader.base.Constant;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

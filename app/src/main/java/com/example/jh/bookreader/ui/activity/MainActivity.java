@@ -1,11 +1,9 @@
 package com.example.jh.bookreader.ui.activity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.view.menu.MenuBuilder;
 import android.view.Gravity;
@@ -17,7 +15,7 @@ import android.widget.ImageView;
 
 import com.example.jh.bookreader.R;
 import com.example.jh.bookreader.base.BaseActivity;
-import com.example.jh.bookreader.bean.base.Constant;
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.user.TencentLoginResult;
 import com.example.jh.bookreader.component.AppComponent;
 import com.example.jh.bookreader.component.DaggerMainComponent;

@@ -23,8 +23,8 @@ import android.widget.CompoundButton;
 
 
 import com.example.jh.bookreader.R;
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.Recommend;
-import com.example.jh.bookreader.bean.base.Constant;
 import com.example.jh.bookreader.manager.SettingManager;
 import com.example.jh.bookreader.utils.FileUtils;
 import com.example.jh.bookreader.utils.FormatUtils;

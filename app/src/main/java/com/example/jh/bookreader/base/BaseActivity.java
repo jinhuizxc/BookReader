@@ -15,11 +15,10 @@ import android.view.WindowManager;
 
 import com.example.jh.bookreader.R;
 import com.example.jh.bookreader.app.ReaderApplication;
-import com.example.jh.bookreader.bean.base.Constant;
 import com.example.jh.bookreader.component.AppComponent;
 import com.example.jh.bookreader.utils.SharedPreferencesUtil;
 import com.example.jh.bookreader.utils.StatusBarCompat;
-import com.example.jh.bookreader.view.CustomDialog;
+import com.example.jh.bookreader.view.loadding.CustomDialog;
 
 import butterknife.ButterKnife;
 

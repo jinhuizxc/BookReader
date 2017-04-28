@@ -20,8 +20,8 @@ import android.text.TextUtils;
 import android.view.ViewGroup;
 
 import com.example.jh.bookreader.R;
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.BookReviewList;
-import com.example.jh.bookreader.bean.base.Constant;
 import com.example.jh.bookreader.manager.SettingManager;
 import com.example.jh.bookreader.utils.FormatUtils;
 import com.example.jh.bookreader.view.recycleview.adapter.BaseViewHolder;

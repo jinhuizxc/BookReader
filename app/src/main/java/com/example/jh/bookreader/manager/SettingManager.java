@@ -1,6 +1,6 @@
 package com.example.jh.bookreader.manager;
 
-import com.example.jh.bookreader.bean.base.Constant;
+import com.example.jh.bookreader.base.Constant;
 import com.example.jh.bookreader.bean.support.BookMark;
 import com.example.jh.bookreader.utils.AppUtils;
 import com.example.jh.bookreader.utils.ScreenUtils;
