@@ -24,6 +24,15 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a','x86_64'
+            universalApk true
+        }
+    }
 }
 
 dependencies {
@@ -36,6 +45,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     // 引入注解框架butterknife
     compile 'com.jakewharton:butterknife:7.0.1'
+
     compile 'com.android.support:design:25.3.1'
     // cardview
     compile 'com.android.support:cardview-v7:25.3.1'
@@ -48,8 +58,6 @@ dependencies {
     compile 'com.google.dagger:dagger:2.0.2'
     apt 'com.google.dagger:dagger-compiler:2.0.2'
     provided 'org.glassfish:javax.annotation:10.0-b28'
-    // butterknife
-    compile 'com.jakewharton:butterknife:7.0.1'
     // rxjava
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'io.reactivex:rxjava:1.1.5'
